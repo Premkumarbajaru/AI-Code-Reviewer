@@ -10,7 +10,7 @@ ai.configure(api_key=api_key)
 
 # Define system prompt
 system_prompt = """You are an AI-powered Code Reviewer.  
-Your primary role is to analyze submitted Python code, detect every possible issue, and provide detailed feedback.  
+Your primary role is to analyze submitted code, detect every possible issue, and provide detailed feedback.  
 
 You should:  
 1. Identify syntax errors, including indentation issues, missing colons, and incorrect indentation levels.  
@@ -28,7 +28,7 @@ model = ai.GenerativeModel(model_name="gemini-1.5-flash")
 
 # Streamlit UI
 st.title(":speech_balloon: AI Code Reviewer")
-st.write("Paste your Python code below, and the AI will review it for errors and improvements.")
+st.write("Paste your code below, and the AI will review it for errors and improvements.")
 
 # Text area for user input
 query = st.text_area("Enter Your Code Here...", height=300)
