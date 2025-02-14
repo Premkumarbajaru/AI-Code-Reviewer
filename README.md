@@ -20,7 +20,7 @@ This project is designed to assist developers in reviewing code efficiently. By 
 1. **Clone the repository**  
 ```sh  
 git clone https://github.com/Premkumarbajaru/AI-Code-Reviewer.git
-cd AI-code-reviewer  
+cd AIcodereviewer  
 ```
 
 2. **Install dependencies**  
@@ -36,7 +36,7 @@ streamlit run codereviewer.py
 ## 🐂 Repository Structure  
 ```
 💎 AI-code-reviewer
- ┣ 📄 ai_code_reviewer.py  # Main Streamlit app
+ ┣ 📄 AIcodereviewer.py  # Main Streamlit app
  ┣ 📄 requirements.txt # Dependencies
  ┣ 📄 README.md        # Project Documentation
 ```
