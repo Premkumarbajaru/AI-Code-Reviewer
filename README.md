@@ -6,7 +6,7 @@ An AI-powered Code Reviewer built with **Streamlit** and **Google's Gemini API**
 This project is designed to assist developers in reviewing code efficiently. By leveraging AI, it detects syntax errors, suggests improvements, and provides corrected code snippets. Users can input their code into a simple Streamlit-based web interface and receive immediate feedback, helping them improve their coding skills and ensure best practices.
 
 ## 📸 Demo  
- 
+ ![Image](https://github.com/user-attachments/assets/a44f46f2-f5dc-4cf7-b1b6-0d9caeeab36f)
 
 ## 🔧 Features  
 ✔️ Detects syntax errors in code  
